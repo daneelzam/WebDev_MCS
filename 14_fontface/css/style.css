@@ -1,0 +1,19 @@
+@font-face {
+	src: url(../font/lobster_[allfont.ru].ttf);
+	font-family: 'Lobster';
+	font-weight: normal;
+
+}
+.heading h1 {
+	font-size: 50px;
+	font-weight: normal;
+	font-family: 'Lobster', sans-serif;
+}
+
+.paragraph p {
+	font-family: 'Lobster', sans-serif;	
+}
+
+.paragraphTwo {
+	font-family: 'Lobster', sans-serif;
+}
