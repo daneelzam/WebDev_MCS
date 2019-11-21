@@ -1,1 +1,48 @@
 @import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+.name {
+	padding: 25px;
+	height: 25px;
+	background-color: #1B796B;
+}
+.header h1 {
+	height: 50px;
+	text-align: center;
+	font-family: 'PT Mono', monospace;
+	font-size: x-large;
+	color: white;
+}
+.image {
+	height: 300px;
+	background-image: url(../img/background.jpeg);
+	background-repeat: repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+nav {
+	padding: 25px;
+	height: 25px;
+	background-color: #1B796B;
+	text-align: center;
+	font-size: large;
+}
+nav > a {
+	color: white;
+	text-decoration: unset;
+	font-family: 'PT Mono', monospace;
+}
+.main section {
+	padding-top: 20px;
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-bottom: 20px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.footer div{
+	padding-top: 20px;
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-bottom: 20px;	background-color: #1B796B;
+}
